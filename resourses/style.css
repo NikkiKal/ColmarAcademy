@@ -28,3 +28,37 @@ nav li {
     list-style: none;
     
 }
+
+.banner {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+
+.bannerpic {
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+    float: left;
+}
+
+.start {
+    display: flexbox;
+    align-content: center;
+}
+
+h1 {
+    font-size: 52px;
+    
+}
+
+p {
+    font-size: 32px;
+    padding: 24px 0px;
+    
+}
+
+button {
+    padding: 8px;
+    
+}
