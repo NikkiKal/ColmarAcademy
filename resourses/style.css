@@ -1,6 +1,7 @@
 * {
     margin: 0;
 }
+
 nav {
     display: flex;
     height: 64px;
@@ -13,7 +14,6 @@ nav {
     overflow: hidden;
     
 }
-
 
 nav ul {
     
@@ -29,7 +29,7 @@ nav li {
     
 }
 
-.banner {
+section {
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -43,8 +43,10 @@ nav li {
 }
 
 .start {
-    display: flexbox;
-    align-content: center;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
 }
 
 h1 {
@@ -60,5 +62,33 @@ p {
 
 button {
     padding: 8px;
-    
+
+}
+
+
+.infopic {
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+    float: left;
+}
+
+.blue {
+    color: lightskyblue;
+}
+
+.infocards {
+    display: grid;
+    width: 40%;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+
+}
+
+.infocardpics {
+    float: left;
+    width: 35%;
+    height: auto;
+    padding: 16px 16px;
 }
